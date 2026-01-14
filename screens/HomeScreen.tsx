@@ -51,7 +51,7 @@ export default function HomeScreen({ navigation }: any) {
             onPress={() => navigation.navigate('Settings')}
           >
             <Ionicons name="settings-sharp" size={20} color={Colors.primaryGreen} style={{marginRight: 8}} />
-            <Text style={[styles.buttonText, styles.settingsButtonText]}>App Settings</Text>
+            <Text style={[styles.buttonText, styles.settingsButtonText]}>App Settings Page</Text>
           </TouchableOpacity>
         </View>
 
