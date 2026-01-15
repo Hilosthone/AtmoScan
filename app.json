@@ -6,11 +6,12 @@
     "orientation": "portrait",
     "scheme": "myapp",
     "icon": "./assets/icon.png",
+    "icon": "./assets/weather_icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
 
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/weather_icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -53,6 +54,9 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
