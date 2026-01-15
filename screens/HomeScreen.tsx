@@ -56,7 +56,7 @@ export default function HomeScreen({ navigation }: any) {
         </View>
 
         <View style={styles.footer}>
-          <Text style={styles.footerText}>v1.0.4 | Android 16 Verified</Text>
+          <Text style={styles.footerText}>v1.0.5 | Android 17 Verified</Text>
         </View>
 
       </ScrollView>
